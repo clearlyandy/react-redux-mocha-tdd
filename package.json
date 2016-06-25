@@ -1,34 +1,22 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "react-redux-mocha-tdd",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "React/Redux TDD, featuring Mocha and Istanbul",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src",
     "test": "node_modules/.bin/mocha --watch --compilers js:babel-core/register ./src/**/*.spec.js --recursive --bail --ui bdd",
     "coverage": "node_modules/istanbul/lib/cli.js cover node_modules/.bin/_mocha --report html -x 'src/**/*.spec.js' -- --compilers js:babel-core/register ./src/**/*.spec.js --recursive --bail --ui bdd"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
-  },
   "keywords": [
     "react",
     "reactjs",
-    "boilerplate",
-    "hot",
-    "reload",
-    "hmr",
-    "live",
-    "edit",
-    "webpack"
+    "tdd",
+    "mocha",
+    "istanbul"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Andy Hass <andyhass@me.com> (http://github.com/clearlyandy)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-eslint": "^4.1.3",
